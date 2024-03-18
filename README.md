@@ -2,72 +2,65 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Financely
+
+Financely is a personal finance management application designed to help users track their income, expenses, and overall financial health. With intuitive features and a user-friendly interface, Financely makes it easy for individuals to monitor their financial transactions, analyze spending patterns, and set budget goals.
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    <b>Dashboard:</b> Get an overview of your financial situation with a customizable dashboard displaying your income, expenses, and total balance.
+    <b>Expense Tracking:</b> Record your expenses effortlessly by categorizing them and adding relevant details such as date, amount, and tags.
+    <b>Income Management:</b> Track your sources of income and monitor your earnings over time to better understand your cash flow.
+    <b>Transaction History:</b> View a detailed history of your transactions, including income and expenses, to analyze your spending patterns.
+    <b>Charts and Analytics:</b> Visualize your financial data with interactive charts and graphs to gain insights into your spending habits and trends.
+    <b>Export and Import:</b> Export your transaction data to CSV files for backup or import transactions from CSV files to easily migrate your data.
+    <b>Secure Authentication:</b> Log in securely with Firebase authentication, ensuring your financial information remains safe and protected.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies Used
 
-### `npm test`
+    <b>React:</b> Frontend framework for building interactive user interfaces.
+    <b>Firebase:</b> Backend service for authentication, database storage, and cloud functions.
+    <b>Ant Design:</b> UI library for designing sleek and responsive user interfaces.
+    <b>Alpha Vantage API:</b> API for fetching real-time stock market data to display in the sidebar.
+    <b>React Icons:</b> Library for including popular icon packs in the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation and Usage
 
-### `npm run build`
+    Clone the repository: git clone https://github.com/sainath161/financely.git
+    Install dependencies: npm install
+    Set up Firebase:
+        Create a Firebase project and enable authentication and Firestore database.
+        Replace the Firebase configuration in src/firebase/firebase.js with your own configuration.
+    Start the development server: `npm start`
+    Access the application at http://localhost:3000 in your web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Clone the repository to your local machine.
+    Install dependencies using `npm install` or `yarn install`.
+    Set up Firebase authentication and database according to the provided configuration.
+    Obtain an API key from Alpha Vantage API for fetching stock market data.
+    Replace placeholders in the code with your Firebase configuration and Alpha Vantage API key.
+    Run the application using `npm start` or `yarn start`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Contributing
 
-### `npm run eject`
+Contributions are welcome! If you'd like to contribute to Financely, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Fork the repository.
+    Create a new branch: `git checkout -b feature/new-feature`
+    Make your changes and commit them: `git commit -am 'Add new feature'`
+    Push to the branch: `git push origin feature/new-feature`
+    Submit a pull request.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
 Please visit my app on https://financelyreact.netlify.app/ 
+
+### Acknowledgments
+
+Special thanks to the developers of React, Firebase, Ant Design, and React Icons for their invaluable contributions to this project.
