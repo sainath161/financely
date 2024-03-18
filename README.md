@@ -30,31 +30,31 @@ In the project directory, you can run:
 
 ### Installation and Usage
 
-Clone the repository: git clone https://github.com/sainath161/financely.git
-Install dependencies: npm install
-Set up Firebase:
-    Create a Firebase project and enable authentication and Firestore database.
-    Replace the Firebase configuration in src/firebase/firebase.js with your own configuration.
-Start the development server: `npm start`
+Clone the repository: git clone https://github.com/sainath161/financely.git<br>
+Install dependencies: npm install<br>
+Set up Firebase:<br>
+    Create a Firebase project and enable authentication and Firestore database.<br>
+    Replace the Firebase configuration in src/firebase/firebase.js with your own configuration.<br>
+Start the development server: `npm start`<br>
 Access the application at http://localhost:3000 in your web browser.
 
 ### Getting Started
 
-Clone the repository to your local machine.
-Install dependencies using `npm install` or `yarn install`.
-Set up Firebase authentication and database according to the provided configuration.
-Obtain an API key from Alpha Vantage API for fetching stock market data.
-Replace placeholders in the code with your Firebase configuration and Alpha Vantage API key.
+Clone the repository to your local machine.<br>
+Install dependencies using `npm install` or `yarn install`.<br>
+Set up Firebase authentication and database according to the provided configuration.<br>
+Obtain an API key from Alpha Vantage API for fetching stock market data.<br>
+Replace placeholders in the code with your Firebase configuration and Alpha Vantage API key.<br>
 Run the application using `npm start` or `yarn start`.
 
 ### Contributing
 
 Contributions are welcome! If you'd like to contribute to Financely, please follow these steps:
 
-Fork the repository.
-Create a new branch: `git checkout -b feature/new-feature`
-Make your changes and commit them: `git commit -am 'Add new feature'`
-Push to the branch: `git push origin feature/new-feature`
+Fork the repository.<br>
+Create a new branch: `git checkout -b feature/new-feature`<br>
+Make your changes and commit them: `git commit -am 'Add new feature'`<br>
+Push to the branch: `git push origin feature/new-feature`<br>
 Submit a pull request.
 
 ### Deployment
